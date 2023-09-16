@@ -1,0 +1,222 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family: 'Open Sans', sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text_center{
+    text-align: center;
+}
+nav{
+    width: 100%;
+    background-color:#02918c;
+}
+.align{
+    align-items: center;
+    justify-content: space-between;
+}
+nav div ul a{
+    text-decoration: none;
+    list-style-type:none ;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 26px 25.5px;
+
+}
+.container_{
+    width:1170px;
+    margin: 0 auto;
+}
+nav div ul a li{
+   
+    font-weight: 800;
+}
+#banner{
+    padding: 210px 0px;
+    background-image:url(./../img/MYFOLIO.jpg);
+    color: #ffffff;
+   background-size: cover;
+}
+#banner h4{
+    font-size: 30px;
+    font-weight: 400;
+    line-height:25px ;
+}
+#banner h1{
+    font-size: 68px;
+    line-height:75px ;
+    text-transform:uppercase;
+    letter-spacing: 30px;
+    font-weight: 800;
+}
+#banner p{
+    font-size:18px;
+    line-height: 33px;
+}
+#banner a{
+    display: block;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+    background-color: #cfc91d;
+    width: fit-content;
+    padding: 14px 42px;
+    margin:0 auto;
+    text-transform: uppercase;
+}
+#banner img{
+   margin: 52px 0px;
+}
+/* about section start*/
+section div h2{
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #02918c;
+    font-weight: 800;
+}
+.text_1{
+  font-size: 16px;
+  line-height:41px ;
+  color:#7e8287 ;
+  padding: 0px 140px;
+}
+#about p b{
+    font-size:23px;
+    font-weight: 800;
+}
+#about .about_item_container .about_logo{
+    width: 25%;
+    text-align: center;
+   margin-top: 80px;
+    padding: 0px 80px;
+    border-right: 1px solid #d9dbdb;
+}
+#about .about_item_container .about_logo:last-child{
+    border-right: 0;
+}
+#about .about_item_container .about_logo h3{
+    padding: 28px  0px ;
+}
+/* about section end*/
+/*service section start*/
+#service{
+    background-image: url(./../img/service_img.jpg);
+    background-size: cover;
+}
+#service .inner_container{
+    width: 50%;
+    
+}
+#service .service_logo_style{
+    width: 50%;
+  
+
+} 
+.service_logo_parents{
+    width:50%;
+}
+#service .inner_container h2{
+    padding: 42px 0;
+}
+#service .inner_container p {
+    
+    font-size: 16px;
+}
+#service .services_logo h3{
+    padding: 19px;
+}
+#service .services_logo{
+    padding: 56px 0 ;
+}
+#service .services_logo p{
+    font-size: 16px;
+}
+/*service section end*/
+/*mywork section start*/
+#my_work .container_ p{
+    padding: 0 243px;
+}
+#my_work .my_work_item{
+    width: 25%;
+    position: relative;
+}
+#my_work .my_work_item img{
+    width: 100%;
+  height: 100%;
+}
+#my_work .mywork_info{
+    position: absolute;
+    z-index: 1;
+    background-color: #02918c;
+    color: #d9dbdb;
+    inset: 20px 28px;
+    padding:58px 38px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+#my_work .my_work_item:hover .mywork_info{
+    opacity: 1;
+    visibility: visible;
+}
+/*mywork section end*/
+/*contact section start*/
+#contact_me p{
+    padding:0 237px ;
+}
+#contact_me{
+    padding: 74px 0;
+}
+.contact_form{
+    background-color:#0b0b0b ;
+    padding:60px ;
+}
+ .contact_form input{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color:#7e8287 ;
+    background-color: #0b0b0b;
+    border:none ;
+    border-bottom: 1px solid #898989 ;
+    font-size: 16px;
+    padding: 18px;
+    margin-top: 69px;
+}
+.sm{
+    width: 637px;
+}
+.lg{
+    width:920px ;
+}
+.contact_form .container_ button{
+    display: block;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    font-size:14px;
+    background-color: #cfc91d;
+    width: fit-content;
+    padding: 14px 42px;
+    margin:0 auto;
+    text-transform: uppercase;
+    border: none;
+   
+    margin-top:68px ;
+}
+/*contact section end*/
+.footer{
+    background-color: #000000;
+    color: #7e8287;
+    padding:30px ;
+}
